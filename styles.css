@@ -1,7 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-  font-family: roboto;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #0071E3;
+  --secondary-color: #ffffff;
+  --text-color: #555;
+  --basic-color: #f5f5f7;
+  --header-h1-color:#2e2e2e;
+}
+
+body {
+  font-family: Inter;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: var(--basic-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 100px;
+}
+
+.logo{
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+  position: relative;
+  left: 20px;
+  cursor: not-allowed;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 18px;
+  transition: transform 0.5s;
+  font-weight: 480;
+}
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+.nav-btn {
+  padding: 8px 16px;
+  font-family: inter;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  background: none;
+  transition: background-color 0.3s ease-in, transform 0.3s ease-in;
+  cursor: pointer;
+  font-weight: 480;
+  
+}
+.nav-btn:hover {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 6px;
+  color: var(--secondary-color);
+}
+.nav-btn i {
+  margin-right: 8px;
+}
+.nav-btn:active {
+  opacity: 0.5;
+}
+.hero-section {
+  background-image: url('images/header.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: var(--text-color);
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  padding: 0 20px;
+  transform: translateY(-40px); 
+}
+.hero-content h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  text-transform: capitalize;
+  color: var(--header-h1-color);
+}
+#productivity {
+  color: var(--primary-color);
+}
+.hero-content p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -20px;
+  transition: margin-top 0.3s ease-in-out;
+  line-height: 30px;
+}
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.hero-btn {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);       
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero-btn.demo {
+  background: none;
+  outline: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.hero-btn.demo:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  outline: none;
+}
+.hero-btn:active {
+  opacity: 0.5;
 }
