@@ -282,3 +282,9 @@ main{
   border-radius: 10px;
   flex: 1;
 }
+.second-product-launch-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 50px;
+}
