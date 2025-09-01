@@ -180,6 +180,7 @@ p {
   font-size: 30px;
   color: var(--text-color);
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 
@@ -416,6 +417,6 @@ ul li {
 }
 
 .package-paragraph {
-  margin-top: 20px;
+  margin-top: 5px;
   width: 800px;
 }
