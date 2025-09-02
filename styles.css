@@ -420,3 +420,62 @@ ul li {
   margin-top: 5px;
   width: 800px;
 }
+
+/************frequently asked questions***************/
+.faq-subheading {
+  margin-bottom: 35px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--basic-color);
+  transition: background 0.3s ease;
+}
+
+.faq-item.active {
+      background: var(--basic-color);
+    }
+
+
+.faq-question {
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.arrow {
+    transition: transform 0.3s ease;
+  }
+
+  .faq-item.active .arrow {
+    transform: rotate(180deg); /* flip icon when open */
+  }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    color: white;
+    padding: 0 20px;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+  }
+
+  .faq-item.active .faq-answer {
+    max-height: 300px; /* enough space for answer */
+    padding: 15px 20px;
+  }
+
+  .faq-answer p {
+    margin: 0;
+    line-height: 1.6;
+  }
