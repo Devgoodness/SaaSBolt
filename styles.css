@@ -479,3 +479,25 @@ ul li {
     margin: 0;
     line-height: 1.6;
   }
+
+  .Testimonials {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+  }
+
+  .testimonial-container {
+  display: inline-flex;
+  gap: 20px;
+  width: 60px;
+}
+
+.testimonial {
+  min-width: 250px;
+  padding: 20px;
+  background: #232ebe;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
