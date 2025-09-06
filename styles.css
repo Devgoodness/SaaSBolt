@@ -178,7 +178,7 @@ p {
 
 .main-subheading {
   font-size: 30px;
-  color: var(--text-color);
+  color: var(--header-h1-color);
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -523,8 +523,10 @@ ul li {
   margin: 0;
   font-size: 16px;
   color: var(--header-h1-color);
+  cursor: pointer;
 }
 
 .author small {
   color: var(--text-color);
+  cursor: pointer;
 }
