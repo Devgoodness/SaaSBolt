@@ -530,3 +530,88 @@ ul li {
   color: var(--text-color);
   cursor: pointer;
 }
+
+/***********Newsletter*********/
+
+.subscribe {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 15px;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.envelope {
+  font-size: 100px;
+}
+
+.subscribe h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.subscribe p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: var(--secondary-color);
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  padding: 10px 15px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+}
+
+.input-box i {
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.input-box input {
+  border: 1px solid #ffff;
+  color: var(--text-color);
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.subscribe-form button {
+  background: none;
+  border: 1px solid #ffff;
+  color: var(--basic-color);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.newsletter-btn {
+  outline: 1px solid #fff;
+}
+
+
+.subscribe-form button:hover {
+  background: var(--basic-color);
+  color: var(--text-color);
+}
+
+.bell {
+  margin-right: 10px;
+}
