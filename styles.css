@@ -487,7 +487,12 @@ ul li {
   gap: 20px;
   overflow-x: auto;
   scroll-behavior: smooth;
+  scrollbar-width: none;
   padding: 20px 20px;
+}
+
+.Testimonials::-webkit-scrollbar {
+  display: none;
 }
 
 .testimonial-container {
