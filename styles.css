@@ -13,6 +13,7 @@
 }
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,7 +51,7 @@ p {
 .nav-links a {
   text-decoration: none;
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 1rem;
   transition: transform 0.5s;
   font-weight: bold;
   margin-bottom: 1px solid blue;
@@ -65,7 +66,7 @@ p {
 .nav-btn {
   padding: 8px 16px;
   font-family: inter;
-  font-size: 18px;
+  font-size: 1rem;
   border: none;
   outline: none;
   color: var(--text-color);
@@ -109,7 +110,7 @@ p {
 }
 .hero-content h1 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 80px;
   text-transform: capitalize;
   color: var(--header-h1-color);
@@ -118,7 +119,7 @@ p {
   color: var(--primary-color);
 }
 .hero-content p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   margin-top: -20px;
   transition: margin-top 0.3s ease-in-out;
@@ -134,7 +135,7 @@ p {
   background-color: var(--primary-color);
   color: var(--secondary-color);       
   padding: 12px 24px;
-  font-size: 16px;
+  font-size: 1rem;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -170,14 +171,14 @@ p {
   flex-direction: column;
 }
 .main-heading {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 550;
   color: var(--text-color);
   margin-bottom: 2px;
 }
 
 .main-subheading {
-  font-size: 30px;
+  font-size: 1.857rem;
   color: var(--header-h1-color);
   margin-top: 5px;
   margin-bottom: 5px;
@@ -223,19 +224,19 @@ p {
 }
 
 .card-title {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 8px;
 }
 
 .card-text {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #666;
   margin-bottom: 16px;
 }
 
 .card a {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   color: #000;
   text-decoration: none;
@@ -262,7 +263,7 @@ p {
   margin-left: -14px;
 }
 .users span {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--text-color);
   margin-left: 10px;
   white-space: nowrap;
@@ -318,13 +319,13 @@ p {
 pricing-card, .card-title {
   font-weight: bold;
   color: var(--header-h1-color);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .price {
   font-weight: 700;
   position: relative;
-  font-size: 25px;
+  font-size: 1.5rem;
   color: var(--text-color);
 }
 
@@ -337,7 +338,7 @@ pricing-card, .card-title {
 }
 
 .price .subscription-duration {
-  font-size: 17px;
+  font-size: 1rem;
   font-weight: lighter;
   color: #b0b0b0;
   margin-left: 8px;
@@ -375,7 +376,7 @@ ul li {
   background-color: var(--primary-color);
   color: var(--secondary-color);       
   padding: 12px 24px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: light;
   border: none;
   border-radius: 30px;
@@ -400,7 +401,7 @@ ul li {
   background-color: var(--primary-color);
   color: var(--secondary-color);       
   padding: 12px 24px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: light;
   border: none;
   border-radius: 30px;
@@ -626,8 +627,7 @@ ul li {
   margin-right: 10px;
 }
 
-
-
+/**********footer***************/
 
 footer {
   background-color: var(--basic-color);
@@ -643,6 +643,7 @@ footer {
 
 .footer-logo {
   margin-top: 18px;
+  margin-right: 40px;
 }
 
 .footer-section {
@@ -728,6 +729,212 @@ footer {
 
 /*************Responsiveness***************/
 
-@media (max-width: 670) {
-  
+/* Tablet Styles */
+@media (max-width: 900px) {
+
+  .navbar {
+    padding: 15px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .nav-links {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .auth-buttons {
+    margin-bottom: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .main-container {
+    width: 98%;
+    padding: 0 2vw;
+  }
+  .product-launch-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+    text-align: center;
+  }
+  .product-launch-text {
+    text-align: center;
+    padding: 0;
+  }
+  .product-launch-img img {
+    height: 220px;
+  }
+  .cards, .pricing-cards, .Testimonials, .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .package-paragraph {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  html, body {
+    font-size: 15px;
+  }
+  .navbar {
+    padding: 10px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .logo {
+    font-size: 22px;
+    left: 0;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+  }
+  .auth-buttons {
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .hero-section {
+    height: auto;
+    min-height: 400px;
+    padding: 30px 0 10px 0;
+  }
+  .hero-content {
+    padding: 0 5px;
+    transform: none;
+    max-width: 98vw;
+  }
+  .hero-content h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .hero-content p {
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 1.4em;
+  }
+  .users img {
+    width: 36px;
+    height: 36px;
+  }
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .main-heading {
+    font-size: 17px;
+  }
+  .main-subheading {
+    font-size: 22px;
+  }
+  .cards, .pricing-cards, .Testimonials, .footer-container {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  .card, .pricing-card, .testimonial-container {
+    max-width: 99vw;
+    padding: 15px 5px;
+    font-size: 0.95em;
+  }
+  .product-launch-container {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: stretch;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .product-launch-text {
+    text-align: center;
+    padding: 0;
+  }
+  .product-launch-img img {
+    height: 140px;
+    max-width: 99vw;
+  }
+  .package-paragraph {
+    width: 99vw;
+    padding: 0 3vw;
+    font-size: 0.95em;
+  }
+  .faq-question {
+    font-size: 1em;
+    padding: 14px 8px;
+  }
+  .faq-answer {
+    padding: 0 4vw;
+  }
+  .testimonial-container {
+    min-width: 90vw;
+    max-width: 99vw;
+    padding: 10px 5px;
+  }
+  .author img {
+    width: 36px;
+    height: 36px;
+  }
+  .subscribe {
+    padding: 20px 4vw;
+    max-width: 99vw;
+    margin: 20px auto;
+  }
+  .envelope {
+    font-size: 32px;
+  }
+  .subscribe h2 {
+    font-size: 1.1em;
+  }
+  .input-box {
+    min-width: 140px;
+    max-width: 99vw;
+    padding: 7px 8px;
+  }
+  .subscribe-form {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .newsletter-btn {
+    font-size: 1em;
+    padding: 10px 12px;
+  }
+  footer {
+    padding: 18px 5vw;
+  }
+  .footer-container {
+    gap: 8px;
+    padding: 0;
+  }
+  .footer-section {
+    min-width: unset;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .footer-logo {
+    margin-right: 0;
+    margin-top: 8px;
+  }
+  .copyright {
+    font-size: 0.89em;
+    margin-top: 10px;
+    padding-top: 8px;
+  }
+}
+
+/* Accessibility: reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation-duration: 0s !important;
+  }
 }
