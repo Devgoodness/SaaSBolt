@@ -294,6 +294,8 @@ p {
   flex: 1;
 }
 
+/***********pricing**************/
+
 .pricing-cards {
   display: flex;
   flex-wrap: wrap;
@@ -304,7 +306,7 @@ p {
 
 .pricing-card {
   display: flex;
-  background-color:var(--basic-color); 
+  background-color:var(--basic-color);
   flex: 1;
   flex-wrap: wrap;
   max-width: 1000px;
