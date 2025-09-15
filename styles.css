@@ -89,6 +89,18 @@ p {
 .nav-btn:active {
   opacity: 0.5;
 }
+
+.hambuger-button i {
+  font-size: 1rem;
+  background: var(--primary-color);
+  padding: 8px 16px;
+  margin: none;
+  border-radius: 5px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  display: none;
+}
+
 .hero-section {
   background-image: url('images/header.png');
   background-size: cover;
