@@ -47,6 +47,8 @@ p {
 .nav-links {
   display: flex;
   gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 .nav-links a {
   text-decoration: none;
