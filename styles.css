@@ -49,6 +49,7 @@ p {
   gap: 20px;
   align-items: center;
   justify-content: center;
+  margin-right: 40px;
 }
 .nav-links a {
   text-decoration: none;
@@ -520,7 +521,7 @@ ul li {
 
 .testimonial-container {
   min-width: 400px;
-  max-width: 450px;
+  max-width: 440px;
   background: var(--basic-color);
   border-radius: 10px;
   padding: 20px;
@@ -529,7 +530,7 @@ ul li {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .quote {
-  font-size: 30px;
+  font-size: 2rem;
   color: var(--header-h1-color);
 }
 
