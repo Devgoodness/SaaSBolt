@@ -124,7 +124,6 @@ p {
   transform: translateY(-40px); 
 }
 .hero-content h1 {
-  font-weight: 700;
   font-size: 3.75rem;
   line-height: 80px;
   text-transform: capitalize;
@@ -567,7 +566,7 @@ ul li {
   background: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
-  padding: 50px 20px;
+  padding: 50px 30px;
   border-radius: 15px;
   max-width: 800px;
   margin: 40px auto;
@@ -751,5 +750,3 @@ footer {
 
 
 /*************Responsiveness***************/
-
-@media
