@@ -13,7 +13,7 @@
 }
 html {
   scroll-behavior: smooth;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: inter;
   font-size: 16px;
 }
 body {
@@ -275,7 +275,7 @@ p {
   border: 2px solid #fff;
   box-shadow: 0 0 0 2px #f0f4ff;
   object-fit: cover;
-  margin-left: -14px;
+  margin-left: -20px;
 }
 .users span {
   font-size: 1.125rem;
@@ -751,3 +751,5 @@ footer {
 
 
 /*************Responsiveness***************/
+
+@media
