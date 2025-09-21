@@ -14,7 +14,6 @@
 html {
   scroll-behavior: smooth;
   font-family: inter;
-  font-size: 16px;
 }
 body {
   margin: 0;
@@ -22,6 +21,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  font-size: 16px;
 }
 p {
   font-weight: 400;
@@ -34,6 +34,7 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 25px 100px;
+  max-width: 100%;
 }
 
 .logo{
@@ -752,3 +753,6 @@ footer {
 
 
 /*********Tablets screen**********/
+@media (max-width: 1024px) {
+
+}
