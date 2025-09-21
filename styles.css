@@ -29,8 +29,8 @@ p {
 }
 
 .navbar {
-  background-color: var(--basic-color);
   display: flex;
+  background-color: var(--basic-color);
   align-items: center;
   justify-content: space-between;
   padding: 25px 100px;
@@ -57,7 +57,6 @@ p {
   font-size: 1rem;
   transition: transform 0.5s;
   font-weight: bold;
-  margin-bottom: 1px solid blue;
 }
 .nav-links a:hover {
   color: var(--primary-color);
@@ -750,3 +749,6 @@ footer {
 
 
 /*************Responsiveness***************/
+
+
+/*********Tablets screen**********/
