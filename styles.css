@@ -777,6 +777,13 @@ footer {
     display: block;
   }
 
+  .hero-content h1 {
+  font-size: 2.75rem;
+  line-height: 80px;
+  padding: 0 30px;
+
+}
+
   .main-container {
   width: 70%;
   max-width: 900px;
