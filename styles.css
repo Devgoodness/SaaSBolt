@@ -93,7 +93,7 @@ p {
   opacity: 0.5;
 }
 
-.hamburger{
+.hamburger-div{
   font-size: 1rem;
   background: var(--primary-color);
   padding: 8px 16px;
@@ -755,7 +755,7 @@ footer {
 /*********Tablets screen**********/
 @media (min-width: 768px) and (max-width: 1024px)  {
   .navbar {
-  padding: 10px 20px;
+  padding: 20px 90px;
   max-width: 100%;
   }
 
@@ -763,6 +763,18 @@ footer {
     font-size: 25px;
     left: 40px;
     cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .auth-buttons {
+    display: none;
+  }
+
+  .hamburger-div {
+    display: block;
   }
 
   .main-container {
