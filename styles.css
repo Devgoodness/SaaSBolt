@@ -940,6 +940,10 @@ footer {
   text-align: center;
   
 }
+
+.column-reverse {
+  flex-direction: column-reverse;
+}
 .product-launch-img {
   flex: 1;
 }
