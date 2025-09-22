@@ -850,6 +850,10 @@ footer {
 /*********Mobile screen**********/
 @media (max-width: 767px) {
 
+  html, body {
+  overflow-x: hidden;
+}
+
   .navbar {
   padding: 25px 30px;
   max-width: 100%;
@@ -858,7 +862,7 @@ footer {
 
   .logo{
     font-size: 25px;
-    left: 20px;
+    left: 15px;
     cursor: pointer;
   }
 
@@ -928,7 +932,16 @@ footer {
 .product-launch-container {
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
+.product-launch-text {
+  flex: 1;
+  text-align: center;
+  
+}
+.product-launch-img {
+  flex: 1;
+}
 
 }
