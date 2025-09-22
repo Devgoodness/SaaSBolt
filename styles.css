@@ -795,28 +795,22 @@ footer {
 }
 
  .main-container {
-  width: 70%;
-  max-width: 900px;
+  width: 80%;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .main-heading {
   font-size: 1.20rem;
-  font-weight: 550;
-  color: var(--text-color);
-  margin-bottom: 2px;
 }
 
 .main-subheading {
   font-size: 1.80rem;
-  color: var(--header-h1-color);
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 .cards {
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 .card {
   display: flex;
