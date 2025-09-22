@@ -783,7 +783,7 @@ footer {
   font-size: 54px;
   line-height: 70px;
   padding: 10 40px;
-  margin-top: 150px;
+  margin-top: 50px;
 
 }
 
@@ -842,6 +842,74 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+}
+
+
+/*********Mobile screen**********/
+@media (max-width: 767px) {
+
+  .navbar {
+  padding: 25px 30px;
+  max-width: 100%;
+  overflow-x: hidden;
+  }
+
+  .logo{
+    font-size: 25px;
+    left: 20px;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .auth-buttons {
+    display: none;
+  }
+
+  .hamburger-div {
+    display: block;
+  }
+
+  .hero-content h1 {
+  font-size: 42px;
+  line-height: 60px;
+  padding: 10 40px;
+  margin-top: 120px;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  padding: 0 20px;
+  margin-top: -20px;
+  transition: margin-top 0.3s ease-in-out;
+  line-height: 28px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hero-btn {
+  padding: 12px 48px;
+}
+
+ .main-container {
+  width: 85%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  font-size: 1.20rem;
 }
 
 }
