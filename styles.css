@@ -205,18 +205,19 @@ p {
   justify-content: center;
   gap: 20px;
   margin-top: 30px;
+  max-width: 100%;
 }
 
 .card {
   display: flex;
   background-color:var(--basic-color); 
   flex: 1;
+  flex-direction: column;
   max-width: 1000px;
   padding: 24px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
   text-align: left;
-  flex-direction: column;
   align-items: left;
 }
 
@@ -785,12 +786,6 @@ footer {
 
 }
 
-  .main-container {
-  width: 70%;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
 .hero-content p {
   font-size: 1rem;
   padding: 0 40px;
@@ -798,4 +793,42 @@ footer {
   transition: margin-top 0.3s ease-in-out;
   line-height: 30px;
 }
+
+ .main-container {
+  width: 70%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  font-size: 1.20rem;
+  font-weight: 550;
+  color: var(--text-color);
+  margin-bottom: 2px;
+}
+
+.main-subheading {
+  font-size: 1.80rem;
+  color: var(--header-h1-color);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.cards {
+  flex-direction: column;
+  gap: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color:var(--basic-color); 
+  flex: 1;
+  max-width: 1000px;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  align-items: left;
+}
+
 }
