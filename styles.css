@@ -855,6 +855,10 @@ footer {
   overflow-x: hidden;
 }
 
+.main-subheading {
+  font-weight: 500;
+}
+
   .navbar {
   padding: 25px 30px;
   max-width: 100%;
@@ -880,7 +884,8 @@ footer {
   }
 
   .hero-content h1 {
-  font-size: 42px;
+  font-size: 40px;
+  font-weight: 500;
   line-height: 60px;
   padding: 10 40px;
   margin-top: 120px;
@@ -945,6 +950,11 @@ footer {
 .column-reverse {
   flex-direction: column-reverse;
 }
+
+.fsd-launch-h1 {
+  font-weight: 500;
+}
+
 .product-launch-img {
   flex: 1;
 }
