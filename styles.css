@@ -349,7 +349,7 @@ pricing-card, .card-title {
 .price::after {
   content: "";
   display: block;
-  width: 300px;
+  width: 80%;
   border-bottom: 1px solid #b0b0b0;
   margin-top: 40px;
 }
@@ -398,7 +398,8 @@ ul li {
 
 .price-package-btn {
   background-color: var(--primary-color);
-  color: var(--secondary-color);       
+  color: var(--secondary-color);     
+  width: 100%;  
   padding: 12px 24px;
   font-size: 1rem;
   font-weight: light;
@@ -954,32 +955,37 @@ footer {
 }
 
 .pricing-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 30px;
-  margin-top: 50px;
 }
 
 .pricing-card {
-  display: flex;
-  background-color:var(--basic-color);
-  flex: 1;
-  flex-wrap: wrap;
   max-width: 100%;
-  padding: 24px;
+  
+}
+
+.faq-subheading {
+  margin-bottom: 30px;
+}
+
+.testimonial-container {
+  min-width: 200px;
+  max-width: 340px;
+  background: var(--basic-color);
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+  padding: 20px;
   text-align: left;
-  flex-direction: column;
-  align-items: left;
+  flex-shrink: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-pricing-card, .card-title {
-  font-weight: bold;
-  color: var(--header-h1-color);
-  font-size: 1.25rem;
+.subscribe-form button {
+  width: 100%;
+  gap: 16px;
 }
 
+footer {
+  background-color: var(--basic-color);
+  padding: 40px 40px;
+}
 
 }
