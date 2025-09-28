@@ -97,7 +97,7 @@ p {
       font-size: 28px;
       cursor: pointer;
       padding: 12px;
-      color: #232ebe;
+      color: var(--primary-color);
       position: relative;
       z-index: 1001; /* keep above nav */
       display: none;
@@ -110,7 +110,7 @@ p {
       left: -250px; /* hidden by default */
       width: 250px;
       height: 100%;
-      background: #232ebe;
+      background: var(--basic-color);
       padding-top: 60px;
       transition: left 0.3s ease;
       display: flex;
@@ -122,7 +122,7 @@ p {
     .side-nav a {
       padding: 15px 20px;
       text-decoration: none;
-      color: white;
+      color: var(--primary-color);
       font-size: 18px;
       display: flex;
       align-items: center;
