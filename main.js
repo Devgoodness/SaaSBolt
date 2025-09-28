@@ -18,3 +18,22 @@
   duration: 1000, // animation duration in ms
   once: true,     // animation happens only once
 });
+
+
+
+    const hamburger = document.getElementById("hamburger");
+    const sideNav = document.getElementById("sideNav");
+    const icon = hamburger.querySelector("i");
+
+    hamburger.addEventListener("click", () => {
+      sideNav.classList.toggle("active");
+
+      // Change icon between hamburger and X
+      if (sideNav.classList.contains("active")) {
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-times"); // X
+      } else {
+        icon.classList.remove("fa-times");
+        icon.classList.add("fa-bars"); // back to hamburger
+      }
+    });
