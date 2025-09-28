@@ -115,7 +115,7 @@ p {
       transition: left 0.3s ease;
       display: flex;
       flex-direction: column;
-      z-index: 1000;
+      z-index: 2000;
     }
 
     /* Links inside nav */
@@ -921,6 +921,7 @@ footer {
 
   .hamburger {
     display: block;
+    z-index: 4000;
   }
 
   .hero-content h1 {
@@ -1005,6 +1006,7 @@ footer {
 }
 
 .pricing-cards {
+  flex-direction: column;
   gap: 30px;
 }
 
