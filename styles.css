@@ -895,6 +895,12 @@ footer {
   overflow-x: hidden;
 }
 
+.main-container {
+  width: 98%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .main-subheading {
   font-weight: 600;
 }
