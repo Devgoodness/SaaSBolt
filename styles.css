@@ -633,7 +633,7 @@ ul li {
 .subscribe-form {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   flex-wrap: wrap;
 }
 
@@ -1033,7 +1033,7 @@ footer {
 
 .subscribe-form button {
   width: 100%;
-  gap: 16px;
+  gap: 20px;
 }
 
 footer {
