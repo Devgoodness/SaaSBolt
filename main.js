@@ -38,5 +38,5 @@
       }
     });
 
-    let users = [1, 2, 3, 4];
-    let looops = users.forEach(user => console.log(looops));
+    const users = [1, 2, 3, 4];
+    const looops = users.forEach(user => console.log(looops));
