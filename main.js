@@ -37,3 +37,6 @@
         icon.classList.add("fa-bars"); // back to hamburger
       }
     });
+
+    let users = [1, 2, 3, 4];
+    let looops = users.forEach(user => console.log(looops));
