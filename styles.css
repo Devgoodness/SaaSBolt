@@ -670,7 +670,7 @@ ul li {
   border-radius: 8px;
   font-size: 0.875rem;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: transform 0.3s;
 }
 
 .newsletter-btn {
