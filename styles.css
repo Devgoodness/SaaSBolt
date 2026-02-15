@@ -670,7 +670,7 @@ ul li {
   border-radius: 8px;
   font-size: 0.875rem;
   cursor: pointer;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .newsletter-btn {
@@ -681,6 +681,7 @@ ul li {
 .subscribe-form button:hover {
   background: var(--basic-color);
   color: var(--text-color);
+  transform: scale(1.1);
 }
 
 .subscribe-form button:active {
